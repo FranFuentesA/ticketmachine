@@ -89,7 +89,11 @@ public class TicketMachine
    price = precioBillete;
   }
     
-   
+  public void prompt()
+  { 
+  System.out.println("please, insert the correct amount of money"); 
+}
+  
    
 
 
