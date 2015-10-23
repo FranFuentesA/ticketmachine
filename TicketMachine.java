@@ -81,7 +81,13 @@ public class TicketMachine
        return total;
    }
    
-  
+   /** 
+    * Fija el precio del billete
+    */
+   public void setPrice(int precioBillete)
+   {
+   price = precioBillete;
+  }
     
    
    
