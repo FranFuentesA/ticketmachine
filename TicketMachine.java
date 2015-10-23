@@ -89,11 +89,16 @@ public class TicketMachine
    price = precioBillete;
   }
     
+  /**
+   * he añadido el metodo prompt para que imprima please,insert the correct amount of money
+   */
   public void prompt()
   { 
   System.out.println("please, insert the correct amount of money"); 
 }
- 
+    /**
+     * he creado el metodo showPrice que permite ver el precio con los centimos por pantalla
+     */
     public void showPrice()
     {
         System.out.println("the price of a ticket is " + price + " cents.");
